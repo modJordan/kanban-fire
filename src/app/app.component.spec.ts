@@ -17,7 +17,7 @@ describe('AppComponent', () => {
   it(`should have the 'kanban-fire' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('kanban-fire');
+    expect(app.todo[0].title).toEqual('kanban-fire');
   });
 
   it('should render title', () => {
@@ -27,3 +27,5 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, kanban-fire');
   });
 });
+
+

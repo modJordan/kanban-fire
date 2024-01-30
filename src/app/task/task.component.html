@@ -1,0 +1,6 @@
+<mat-card class="item" *ngIf="task" (dbclick)="editTask()">
+<h2>{{ task.title }}</h2>
+<p>
+  {{ task.description}}
+</p>
+</mat-card>

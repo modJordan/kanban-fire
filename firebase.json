@@ -1,0 +1,11 @@
+{
+  "hosting": [
+    {
+      "target": "kanban-fire",
+      "source": ".",
+      "frameworksBackend": {
+        "region": "us-west1"
+      }
+    }
+  ]
+}
